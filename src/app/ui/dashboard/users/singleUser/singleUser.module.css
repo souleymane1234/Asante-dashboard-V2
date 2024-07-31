@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.infoContainer {
+    flex: 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    font-weight: bold;
+    color: #b7bac1;
+}
+.imgContainer {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.formContainer {
+    flex: 3;
+    background-color: #b7bac1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input, .form textarea, .form select {
+    padding: 20px;
+    border: 2px solid #2e274a;
+    border-radius: 5px;
+    background-color: #151c2c;
+    color: #fff;
+    margin: 10px 0px;
+}
+.form button {
+    font-size: 12px;
+}
+.form button {
+    width: 1000%;
+    padding: 20px;
+    background-color: teal;
+}
